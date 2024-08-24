@@ -1,0 +1,171 @@
+.header-tag{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-light);
+    position: sticky;
+}
+.nav-tag, ul{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-tag, ul,li{
+   padding: 5px;
+   padding-right: 19px;
+    
+}
+ #logo-h2{
+    padding:0.5rem;
+    padding-left: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+.landing-page-tag{
+    
+    width: 100%;
+    align-items: start;
+    margin-top: 100px;
+    
+    margin-left: 30px;
+    
+}
+.img-div{
+   
+    width: 100%;
+    text-align: center;
+   margin: 60px;
+    margin-left: 100px; 
+   
+}
+.img-div, img{
+    width: 697px;
+    height: 482px;
+    top: 173px;
+    left: 1678px;
+    gap: 0px;
+    opacity: 0px;
+    Rotation:-180°;
+    
+    
+}
+.landing-tag{
+    display: flex;
+    width: 100%;
+   
+}
+
+#heading-id-tag{
+    
+    line-height: 110px;
+    font-size: 33px;
+    color: white;
+    
+}
+#bbt{
+    width: 125px;
+    height: 39px;
+    top: 587px;
+    left: 177px;
+    gap: 0px;
+    opacity: 0px;
+    
+     margin-top: 50px;
+     padding: 5px;
+     border-radius: 20px;
+     border: none;
+     color: rgb(15, 15, 15);
+     background-color: var(--primary-light);
+}
+
+.color-tag{
+    color: white;
+    
+}
+.fonnt{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+.form-tag{
+    flex: 1;
+    width: 100%;
+    text-align: center;
+}
+#input-name{
+    width: 98%;
+    margin-top: 20px;
+    padding: 8px;border-radius: 20px;
+}
+#input-email{
+    width: 98%;
+    margin-top: 20px;
+    padding: 8px;border-radius: 20px;
+}
+#input-number{
+    width: 49%;
+    margin-top: 20px;
+   border-radius: 20px;
+    padding: 8px;
+  
+}
+#input-city{
+    width: 49%;
+    margin-top: 20px;
+    padding: 8px;
+   border-radius: 20px;
+   
+}
+
+#heading-gg{
+    margin-left: 18px;
+    font-family: Montserrat;
+font-size: 64px;
+font-weight: 700;
+line-height: 78.02px;
+text-align: left;
+color: var(--primary-light);
+
+}
+#bbbt{
+    margin-top: 35px;
+    width: 100px;
+    padding: 8px;
+    background: #FCAF02;
+    border: none;
+    
+}
+   
+
+.table-main{
+    width: 100%;
+    background-color: #000000;
+    margin-top: 20px;
+    padding: 50px;
+}
+.table-div{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid var(--primary-light);
+    border-collapse: collapse;
+    padding: 6px;
+    text-align:center;
+    color:var(--primary-light);
+    }
+
+    .th-color{
+       background-color: #FCAF02;
+       color: #000000;border: 2px solid;
+    }

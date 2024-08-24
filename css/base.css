@@ -1,0 +1,57 @@
+
+/* decide all color codes */
+/* Primary: #eb2f64
+Primary light: #FF3366
+Primary dark: #BA265D
+
+Grey light 1: #faf9f9
+Grey light 2: #f4f2f2
+Grey light 3: #f0eeee
+Grey light 4: #ccc
+
+Grey dark 1: #333
+Grey dark 2: #777
+Grey dark 3: #999 */
+
+
+/* font  */
+
+
+/* font-size */
+/* custom properties */
+:root{
+    --primary: #eb2f64;
+    --primary-light:  #FCAF02;
+    ;
+    --primary-dark: #BA265D;
+    --grey-light-1: #faf9f9;
+    --grey-light-2: #f4f2f2;
+    --grey-light-3: #f0eeee;
+    --grey-light-4: #ccc;
+    --grey-dark-1: #333;
+    --grey-dark-2: #777;
+    --grey-dark-3: #999;
+
+    --shadow-dark: 0 2rem 6rem rgba(75, 198, 44, 0.6);;
+}
+/* root, html, * */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'open sans', cursive;
+    font-size: 62.5%; /* 1rem = 10px */
+    background-color: black;
+   
+}
+
+
+/* // em, rem  */
+
+
+ /* 16px => (10/16)*100 = 62.5% => 1rem = 10px */
